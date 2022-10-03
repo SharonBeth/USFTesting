@@ -1,0 +1,62 @@
+/* The line below was pre-written code. I assumed that if this was the standard way to 
+write an ID from a Div section, this should universal.*/
+#game div { 
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+/* The line below is what finalled worked after testing a lot of combinations. 
+Why does the first group work, but not the last group? & Why does this work instead? */
+#testing { 
+  text-align: center;
+  color: orange;
+  background-color;
+}
+/* The line below was what I tried to mimick from the first group, because the "#game div"
+has the #, id name,  & div. If the first group worked, why wouldn't this work. */
+/* #testing div {  */
+  /* text-align: center; */
+  /* color: orange; */
+  /* background-color; */
+/* } */
+/*  */
+
+.red{
+  background-color: red;
+  transform: rotateY(180deg);
+
+
+}
+
+.blue{
+  background-color: blue;
+
+  transform: rotateY(180deg);
+}
+.green{
+  background-color: green;
+
+  transform: rotateY(180deg);
+}
+.orange{
+  background-color: orange;
+
+  transform: rotateY(180deg);
+}
+.purple {
+  background-color: purple;
+    transform: rotateY(180deg);
+}
+
+.back {
+  background-color: black;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
